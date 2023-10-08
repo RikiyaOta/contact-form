@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro build && cp infra/_headers dist/",
     "preview": "astro preview",
     "astro": "astro",
     "pages:dev": "wrangler pages dev --compatibility-date=2023-10-07 -- astro dev",
