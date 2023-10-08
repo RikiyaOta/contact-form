@@ -5,8 +5,9 @@ import ErrorMessage from '../components/ErrorMessage.astro';
 ---
 
 <Layout title="Contact">
-		<section class="bg-white dark:bg-gray-900">
-			<div class="bg-white dark:bg-gray-900 py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+	<main>
+		<section>
+			<div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
 				<h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
 					Contact RikiyaOta
 				</h2>
@@ -83,13 +84,8 @@ import ErrorMessage from '../components/ErrorMessage.astro';
 			</div>
 		</section>
 		<ErrorMessage />
+	</main>
 </Layout>
-
-<style>
-    section {
-        min-height: 100vh;
-    }
-</style>
 
 <script>
 	import 'flowbite';
