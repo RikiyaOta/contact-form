@@ -112,7 +112,7 @@ import ErrorMessage from '../components/ErrorMessage.astro';
 			 * See: https://docs.web3forms.com/getting-started/api-reference
 			 */
 			if (response.status === 200) {
-				window.location.href += 'success';
+				window.location.href += 'thanks';
 			} else if (response.status === 400) {
 				console.error({response});
 				removeLoading();
