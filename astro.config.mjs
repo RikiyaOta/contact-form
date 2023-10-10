@@ -7,5 +7,9 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   //output: "server",
   //adapter: cloudflare(),
-  integrations: [tailwind()]
+  integrations: [tailwind()],
+  trailingSlash: "never",
+  build: {
+    format: "file",
+  },
 });
