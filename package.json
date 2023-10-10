@@ -8,11 +8,9 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "pages:dev": "wrangler pages dev --compatibility-date=2023-10-07 -- astro dev",
-    "pages:deploy": "astro build && wrangler pages deploy ./dist"
+    "pages:dev": "wrangler pages dev --compatibility-date=2023-10-02 -- astro dev"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "^7.5.1",
     "@astrojs/tailwind": "^5.0.1",
     "astro": "^3.2.3",
     "flowbite": "^1.8.1",
