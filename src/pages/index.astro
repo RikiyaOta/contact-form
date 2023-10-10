@@ -79,6 +79,7 @@ import ErrorMessage from '../components/ErrorMessage.astro';
 							placeholder="Leave a comment..."
 						></textarea>
 					</div>
+					<div class="h-captcha" data-captcha="true"></div>
 					<SubmitButton />
 				</form>
 			</div>
@@ -158,3 +159,4 @@ import ErrorMessage from '../components/ErrorMessage.astro';
 		submitSendingButton.style.display = "none";
 	}
 </script>
+<script src="https://web3forms.com/client/script.js" async defer></script>
