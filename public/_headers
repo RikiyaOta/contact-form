@@ -3,3 +3,4 @@
     X-Content-Type-Options: nosniff
     Referrer-Policy: no-referrer, strict-origin-when-cross-origin
     Content-Security-Policy: script-src 'self' https://static.cloudflareinsights.com; frame-ancestors 'none';
+    X-Robots-Tag: noindex, nofollow
