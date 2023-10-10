@@ -1,6 +1,5 @@
 /*
     X-Frame-Options: DENY
     X-Content-Type-Options: nosniff
-    Referrer-Policy: no-referrer
-    Permissions-Policy: document-domain=()
-    Content-Security-Policy: script-src 'self'; frame-ancestors 'none';
+    Referrer-Policy: no-referrer, strict-origin-when-cross-origin
+    Content-Security-Policy: script-src 'self' 'https://static.cloudflareinsights.com/'; frame-ancestors 'none';
